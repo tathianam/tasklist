@@ -1,9 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Task Editing</ion-title>
+    <ion-title>{{ title }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <form (ngSubmit)="onSubmit()">
+    <ion-item>
+      <ion-label position="stacked">Description</ion-label>
+      <ion-textarea [(ngModel)]="task.description" name="description" rows="5"></ion-textarea>
+    </ion-item>
+    <ion-button expand="block" type="submit">Save</ion-button>
+
+        <!-- <ion-icon name="save-outline"></ion-icon> -->
+</form>
 
 </ion-content>

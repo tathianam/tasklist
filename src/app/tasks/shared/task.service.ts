@@ -25,7 +25,8 @@ export class TaskService {
   }
 
   getById(id: number){
-
+    const task = this.tasks.find( (value) => value.id == id);
+    return task;
   }
 
   save(task: Task){

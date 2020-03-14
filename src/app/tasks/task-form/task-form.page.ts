@@ -28,7 +28,7 @@ export class TaskFormPage implements OnInit {
   }
 
   onSubmit(){
-    
+    console.log(this.task.description);
   }
 
 }

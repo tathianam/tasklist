@@ -7,6 +7,8 @@ const routes: Routes = [
   { path: 'task-list',loadChildren:'./tasks/task-list/task-list.module#TaskListPageModule'},
   { path: 'new',loadChildren:'./tasks/task-form/task-form.module#TaskFormPageModule'},
   { path: 'edit/:id',loadChildren:'./tasks/task-form/task-form.module#TaskFormPageModule'},
+  // nova rota do edit sem o ID para caso o usuario nao informe o conteudo
+  { path: 'edit',loadChildren:'./tasks/task-list/task-list.module#TaskListPageModule'},
 /*   {
     path: 'task-list-item',
     loadChildren: () => import('./tasks/task-list-item/task-list-item.module').then( m => m.TaskListItemPageModule)
