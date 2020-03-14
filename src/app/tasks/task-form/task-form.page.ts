@@ -28,7 +28,9 @@ export class TaskFormPage implements OnInit {
   }
 
   onSubmit(){
-    console.log(this.task.description);
+    // console.log(this.task.description);
+    this.taskService.save(this.task);
+    this.router.navigate(['']);
   }
 
 }
