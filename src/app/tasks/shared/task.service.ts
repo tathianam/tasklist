@@ -6,15 +6,15 @@ import { Injectable } from '@angular/core';
 })
 export class TaskService {
   tasks: Task[] = [
-    { id: 1, description: 'Tarefa 1', completed: false },
-    { id: 2, description: 'Tarefa 2', completed: false },
-    { id: 3, description: 'Tarefa 3', completed: false },
-    { id: 4, description: 'Tarefa 4', completed: true },
-    { id: 5, description: 'Tarefa 5', completed: false },
-    { id: 6, description: 'Tarefa 6', completed: false },
-    { id: 7, description: 'Tarefa 7', completed: false },
-    { id: 8, description: 'Tarefa 8', completed: true },
-    { id: 9, description: 'Tarefa 9', completed: false },
+    { id: 1, description: 'Tarefa 01', completed: false },
+    { id: 2, description: 'Tarefa 02', completed: false },
+    { id: 3, description: 'Tarefa 03', completed: false },
+    { id: 4, description: 'Tarefa 04', completed: true },
+    { id: 5, description: 'Tarefa 05', completed: false },
+    { id: 6, description: 'Tarefa 06', completed: false },
+    { id: 7, description: 'Tarefa 07', completed: false },
+    { id: 8, description: 'Tarefa 08', completed: true },
+    { id: 9, description: 'Tarefa 09', completed: false },
     { id: 10, description: 'Tarefa 10', completed: false },
   ];
 
